@@ -21,7 +21,7 @@ Also join [support channel and group](https://github.com/SUKHPAL443/BLACK-MAMBA#
 
 ## Dᴇᴘʟᴏʏ:-
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰%2FHEROKU&template=https%3A%2F%2Fgithub.com%2F 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰%2FHEROKU)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰%2FHEROKU&template=https%3A%2F%2Fgithub.com%2F𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰%2FHEROKU)
 
 ------------------------------------------------
 
