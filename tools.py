@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 from PIL import Image, ImageColor
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
-from ULTRA import CMD_HELP
+from BLACK_MAMBA.utils import admin_cmd, edit_or_reply, sudo_cmd
+from BLACK_MAMBA import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="scan ?(.*)"))
