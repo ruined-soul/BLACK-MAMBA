@@ -19,8 +19,8 @@
       "value": "ANYTHING"
     },
     "YOUR_NAME": {
-      "description": "Fill Your Telegram Name. Default Value is Hêll",
-      "value": "『ℌєℓℓ』",
+      "description": "Fill Your Telegram Name. Default Value is BLACK MAMBA",
+      "value": "『black mamba』",
       "required": false
     },
     "ALIVE_MSG": {
@@ -34,7 +34,7 @@
       "required": false
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in BlackMamba. Else Fill ON.",
       "value": "ON",
       "required": false
     },
@@ -44,7 +44,7 @@
       "required": false
     },
     "PM_LOG_ID": {
-      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @HELL_ID_BOT",
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @MISSROSEBOT",
       "value": "",
       "required": false
     },
@@ -73,10 +73,10 @@
       "value": ""
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @HELL_ID_BOT and paste here. Value should start with -100",
+      "description": "Create a private channel. And get it's id from @MISSROSEBOT and paste here. Value should start with -100",
       "value": ""
     },
-    "HELLBOT_SESSION": {
+    "BOT_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
