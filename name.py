@@ -1,6 +1,6 @@
-from ULTRA import bot
-from ULTRA.utils import admin_cmd
-import ULTRA.plugins.sql_helper.fsub_sql as sql
+from BLACK_MAMBA import bot
+from BLACK_MAMBA.utils import admin_cmd
+import BLACK_MAMBA.plugins.sql_helper.fsub_sql as sql
 from telethon import events, functions, Button
 import telethon
 from telethon.tl import functions
@@ -9,7 +9,7 @@ from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 from telethon.tl import types
 from telethon.tl.functions.channels import GetFullChannelRequest
-LEGENDX = bot.me.id
+KING_COBRA = bot.me.id
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=True)
 
 async def is_admin(event, user):
@@ -53,7 +53,7 @@ async def fs(event):
   permissions = await bot.get_permissions(event.chat_id, event.sender_id)
   if not permissions.is_admin:
           return await event.reply("❗**Group admin Required**\nYou have to be the group creator or admin to do that.")
-  if not await is_admin(event, LEGENDX):
+  if not await is_admin(event, KING_COBRA):
    return await event.reply("I'm not an admin Mind Promoting Me?!")
   args = event.pattern_match.group(2)
   channel = args.replace("@", "")
@@ -68,7 +68,7 @@ async def fs(event):
     except Exception as e:
       await event.reply(f"{e}")
       return await event.reply("❗**Invalid Channel Username.**")
-    rip = await check_him(channel, LEGENDX)
+    rip = await check_him(channel, KING_COBRA)
     if rip is False:
       return await event.reply(f"❗**Not an Admin in the Channel**\nI am not an admin in the [channel](https://t.me/{args}). Add me as a admin in order to enable ForceSubscribe.", link_preview=False)
     sql.add_channel(event.chat_id, str(channel))
@@ -115,15 +115,15 @@ except:
 async def PROBOY(event):
    global rk
    LEGENDX = event.builder
-   legendx = [[Button.inline("Unmute Me 😊", data="LeGeNdX")]]
-   PROBOYX = LEGENDX.article(title='FORCE SUBSCRIBE', text='fsub', buttons=legendx)
+   legendx = [[Button.inline("Unmute Me 😊", data="KING_COBRA")]]
+   PROBOYX = KING_COBRA.article(title='FORCE SUBSCRIBE', text='fsub', buttons=legendx)
    await event.answer([PROBOYX])
   
 
 
 
 import re     
-@xbot.on(events.callbackquery.CallbackQuery(re.compile(b"LeGeNdX")))
+@xbot.on(events.callbackquery.CallbackQuery(re.compile(b"KING_COBRA")))
 async def start_again(event):
  try:
    tata = event.pattern_match.group(1)
@@ -144,7 +144,7 @@ async def start_again(event):
        await bot(EditBannedRequest(event.chat_id, int(user), UNMUTE_RIGHTS))
      except:
        if not await rights(event):
-         return await bot.send_message(event.chat_id, "❗ **I am not an admin here.**\nMake me admin with ban user permission")
+         return await bot.send_message(event.chat_id, "❗ **ABE OO OWNER KYA KARTA HAI CHAL BHAI KO ADMIN BNA.**\nMake me admin with ban user permission")
     else:
      await event.answer("Please join the Channel!")
     
