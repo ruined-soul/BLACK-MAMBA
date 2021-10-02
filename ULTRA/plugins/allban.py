@@ -1,11 +1,9 @@
-# originally created by legendx22
 
-# team LEGEND
 from asyncio import sleep
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
 from telethon.tl.functions.channels import EditBannedRequest
-from ULTRA.utils import admin_cmd
-from ULTRA import bot, CMD_HELP
+from BLACK_MAMBA.utils import admin_cmd
+from BLACK_MAMBA import bot, CMD_HELP
 error = []
 
 @bot.on(admin_cmd(pattern=r"allban", outgoing=True))
@@ -19,7 +17,7 @@ async def testing(event):
         await event.edit("**𝒀𝒐𝒖 𝑫𝒐𝒏❜𝒕 𝒉𝒂𝒗𝒆 𝑺𝒖𝒇𝒇𝒊𝒄𝒊𝒆𝒏𝒕 𝑹𝒊𝒈𝒉𝒕𝒔**")
         return
     await event.edit("**Dᴏɪɴɢ Nᴏᴛʜɪɴɢ 🙃🙂**")# Kang with Credits
-# for ULTRA X
+# for BLACK_MAMBA 
     everyone = await event.client.get_participants(event.chat_id)
     for user in everyone:
         if user.id == chutiya.id:
