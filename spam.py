@@ -1,14 +1,13 @@
-# By LEGENDX22 🔥 
+# By SUKHPAL 🔥 
 
-#credits dc
-# Kang with credits..
+#CREDIT GOES TO GROUP_MAFIA
 
 import asyncio
 from asyncio import wait
-from ULTRA import CMD_HELP
+from BLACK_MAMBA import CMD_HELP
 
 
-from ULTRA.events import register
+from BLACK_MAMBA.events import register
 
 @register(outgoing=True, pattern="^.tspam")
 async def tmeme(e):
