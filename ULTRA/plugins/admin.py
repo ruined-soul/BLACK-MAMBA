@@ -5,7 +5,7 @@
 """
 Userbot module to help you manage a group
 """
-#credits LEGENDX22
+
 from asyncio import sleep
 from os import remove
 
@@ -21,11 +21,11 @@ from telethon.tl.functions.messages import UpdatePinnedMessageRequest
 from telethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
                                ChatBannedRights, MessageEntityMentionName,
                                MessageMediaPhoto)
-from ULTRAX import devs
-from ULTRA import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
-from ULTRA.utils import register, errors_handler
-from ULTRA.utils import admin_cmd
-from ULTRAX import NAME, MASTER, BOT
+from BLACK_MAMBA import devs
+from BLACK_MAMBA import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from BLACK_MAMBA.utils import register, errors_handler
+from BLACK_MAMBA.utils import admin_cmd
+from BLACK_MAMBA import NAME, MASTER, BOT
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
@@ -313,7 +313,7 @@ async def spider(spdr):
     """
     # Check if the function running under SQL mode
     try:
-        from ULTRA.modules.sql_helper.spam_mute_sql import mute
+        from BLACK_MAMBA.modules.sql_helper.spam_mute_sql import mute
     except AttributeError:
         await spdr.edit(NO_SQL)
         return
@@ -384,7 +384,7 @@ async def unmoot(unmot):
 
     # Check if the function running under SQL mode
     try:
-        from ULTRA.modules.sql_helper.spam_mute_sql import unmute
+        from BLACK_MAMBA.modules.sql_helper.spam_mute_sql import unmute
     except AttributeError:
         await unmot.edit(NO_SQL)
         return
@@ -422,8 +422,8 @@ async def unmoot(unmot):
 async def muter(moot):
     """ Used for deleting the messages of muted people """
     try:
-        from ULTRA.modules.sql_helper.spam_mute_sql import is_muted
-        from ULTRA.modules.sql_helper.gmute_sql import is_gmuted
+        from BLACK_MAMBA.modules.sql_helper.spam_mute_sql import is_muted
+        from BLACK_MAMBA.modules.sql_helper.gmute_sql import is_gmuted
     except AttributeError:
         return
     muted = is_muted(moot.chat_id)
@@ -466,7 +466,7 @@ async def ungmoot(un_gmute):
 
     # Check if the function running under SQL mode
     try:
-        from ULTRA.modules.sql_helper.gmute_sql import ungmute
+        from BLACK_MAMBA.modules.sql_helper.gmute_sql import ungmute
     except AttributeError:
         await un_gmute.edit(NO_SQL)
         return
@@ -513,7 +513,7 @@ async def gspider(gspdr):
 
     # Check if the function running under SQL mode
     try:
-        from ULTRA.modules.sql_helper.gmute_sql import gmute
+        from BLACK_MAMBA.modules.sql_helper.gmute_sql import gmute
     except AttributeError:
         await gspdr.edit(NO_SQL)
         return
