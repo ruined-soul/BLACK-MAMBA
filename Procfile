@@ -1,1 +1,1 @@
-ULTRA X: python3 -m ULTRA
+BLACK_MAMBA: python3 -m BLACK_MAMBA
