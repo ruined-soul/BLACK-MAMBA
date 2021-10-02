@@ -21,13 +21,13 @@ Also join [support channel and group](https://github.com/SUKHPAL443/BLACK-MAMBA#
 
 ## Dᴇᴘʟᴏʏ:-
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSUKHPAL443%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FSUKHPAL443%2FHEROKU)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSUKHPAL443%2FBLACK-MAMBA&template=https%3A%2F%2Fgithub.com%2FSUKHPAL443%2BLACK-MAMBA)
 
 ------------------------------------------------
 
 ## Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
 
-## [String Session](https://replit.com/SUKHPAL443/BLACK-MAMBA)
+## [String Session](https://replit.com/SUKHPAL443/BLACK-MAMBA#session.py)
 
 -------------------------------------------------
 
