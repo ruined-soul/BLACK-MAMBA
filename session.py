@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 print("")
-print("""Wᴇʟᴄᴏᴍᴇ ᴛᴏ UʟᴛʀᴀX Usᴇʀʙᴏᴛ Sᴛʀɪɴɢ Gᴇɴᴇʀᴀᴛᴏʀ ʙʏ @UltraXOT""")
+print("""Wᴇʟᴄᴏᴍᴇ ᴛᴏ BLACK_MAMBA Usᴇʀʙᴏᴛ Sᴛʀɪɴɢ Gᴇɴᴇʀᴀᴛᴏʀ ʙʏ @BLACK_MAMBA_SUPPORT""")
 print("""Kɪɴᴅʟʏ ᴇɴᴇᴛᴇʀ ʏᴏᴜʀ ᴅᴇᴛᴀɪʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ! """)
 
 API_KEY = input("API_KEY: ")
@@ -17,11 +17,11 @@ while True:
    session = client.session.save()
    client.send_message(
        "me",
-       f"Here Is Your String Session For Using UltraX Userbot\n(**Tap to copy it**)👇 \n\n `{session}` \n\n And Visit @UltraXOT For Any Help !"
+       f"Here Is Your String Session For Using BLACK_MAMBA Userbot\n(**Tap to copy it**)👇 \n\n `{session}` \n\n And Visit @BLACK_MAMBA_SUPPORT For Any Help !"
    )
 
    print(
-       "Thanks for Choosing ULTRA X Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Wont Work"
+       "Thanks for Choosing BLACK_MAMBA Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Wont Work"
    )
  except Exception as e:
   print(str(e))
