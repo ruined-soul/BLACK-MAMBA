@@ -4,7 +4,7 @@ import sys
 import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from ULTRA.uniborgConfig import Config
+from BLACK_MAMBA.uniborgConfig import Config
 from var import Var
 # decode and encode
 try:
@@ -14,7 +14,7 @@ except:
   import securex
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-class UltraX (TelegramClient):
+class BLACK_MAMBA (TelegramClient):
   def __init__(self, string, api_id, api_hash):
     super().__init__(StringSession (string), api_id, api_hash)
     self.id = None
@@ -50,7 +50,6 @@ else:
     session_name = "startup"
     bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
 
-DEVS = [1100231654, 1636374066, 1037581197, 1695676469, 1207066133, 1732236209]
 CMD_LIST = {}
 # for later purposes
 CMD_HELP = {}
@@ -58,30 +57,30 @@ CMD_HELP_BOT = {}
 BRAIN_CHECKER = []
 INT_PLUG = ""
 LOAD_PLUG = {}
-#from ULTRAX import xbot 
+#from BLACK_MAMBA import xbot 
 #xbot = xbot 
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
-def HELP(**LEGENDX):
-	see = LEGENDX.get("NAME", None)
-	helper = LEGENDX.get("HELP", None)
+def HELP(*TIMEX_OF_CLOCK*):
+	see = TIMEX-OF_CLOCK.get("NAME", None)
+	helper = TIMEX_OF_CLOCK.get("HELP", None)
 	if see is None:
-		LEGENDX["NAME"] = __name__
+		TIMEX_OF_CLOCK["NAME"] = __name__
 		CMD_HELP.update({see: helper})
 	elif helper is None:
-		LEGENDX[
-		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN\nJOIN @ULTRAXCHAT"
+		BLACK_MAMBA[
+		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN\nJOIN @BLACK_MAMBA_SUPPORT"
 	else:
 	  CMD_HELP.update({see: helper})
 	CMD_HELP.update({see: helper})
 
-def LEGENDX22(**LEGENDX):
-	see = LEGENDX.get("NAME", None)
-	helper = LEGENDX.get("HELP", None)
+def SUKHPAL(**TIMEX_OF_CLOCK):
+	see = TIMEX_OF_CLOCK.get("NAME", None)
+	helper = TIMEX_OF_CLOCK.get("HELP", None)
 	CMD_HELP.update({see: helper})
 
 
-LEGEND_ID = ["1100231654"]
+BLACK_MAMBA_ID = ["1840606316"]
 
 """ PPE initialization. """
 
@@ -113,9 +112,8 @@ if bool(ENV):
     LOGS = getLogger(__name__)
 
     # Check if the config was edited by using the already used variable.
-    # Basically, its the 'virginity check' for the config file ;)
     CONFIG_CHECK = os.environ.get(
-        "___________PLOX_______REMOVE_____THIS_____LINE__________", None)
+        "___________PLOXE_______REMOVE_____THIS_____LINE__________", None)
 
     if CONFIG_CHECK:
         LOGS.info(
@@ -255,5 +253,5 @@ ISAFK = False
 AFKREASON = None
 SUDO_LIST = {}
 
-from ULTRA.helpers import *
-from ULTRA.helpers import functions as legdef
+from BLACK_MAMBA.helpers import *
+from BLACK_MAMBA.helpers import functions as legdef
