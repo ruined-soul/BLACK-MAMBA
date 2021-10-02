@@ -7,11 +7,10 @@ import re
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
-from ULTRA import CMD_HELP, bot
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
-from ULTRA.helpers.functions import deEmojify
+from BLACK_MAMBA import CMD_HELP, bot
+from BLACK_MAMBA.utils import admin_cmd, edit_or_reply, sudo_cmd
+from BLACK_MAMBA.helpers.functions import deEmojify
 
-# RegEx by https://t.me/c/1220993104/50065
 
 @bot.on(admin_cmd(outgoing=True, pattern="waifu(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="waifu(?: |$)(.*)"))
@@ -80,7 +79,7 @@ async def sticklet(event):
         ((512 - width) / 2, (512 - height) / 2), sticktext, font=font, fill=(R, G, B)
     )
     image_stream = io.BytesIO()
-    image_stream.name = "LEGENDBOT.webp"
+    image_stream.name = "BLACK_MAMBA.webp"
     image.save(image_stream, "WebP")
     image_stream.seek(0)
     # finally, reply the sticker
