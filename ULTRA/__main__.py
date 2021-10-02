@@ -1,13 +1,14 @@
-# IDEA/MADE BY LEGENDX22
+# IDEA/MADE BY TIMEX_OF_CLOCK
+#AND HALF CREDIT GOES TO RUINED-SOUL
 
 import os, sys
 new_ver = os.environ.get("NEW_VERSION", False)
 def start():
   if str(new_ver) == "True":
-    os.system ("git clone -b new https://github.com/ULTRA-OP/ULTRA-X.git && cd ULTRA-X && python3 -m ULTRA")
+    os.system ("git clone -b new https://github.com/SUKHPAL443/BLACK_MAMBA.git && cd BLACK_MAMBA && python3 -m BLACK_MAMBA")
   else:
     print ("You Are using Ultra X 1.0 please update your bot")
-    print ("for updating go to @UltraXchaT")
+    print ("for updating go to @BLACK_MAMBA_SUPPORT")
     pass
 
 start()
@@ -21,33 +22,33 @@ else:
 
 
 try:
-  from LEGENDX import id, ID, devs, rd, wt
+  from TIMEX_OF_CLOCK import id, ID, devs, rd, wt
 except:
-  os.system("pip install LEGENDX==0.0.21")
-  from LEGENDX import id, ID, devs
+  os.system("pip install BLACK_MAMBA==0.0.21")
+  from BLACK_MAMBA import id, ID, devs
 finally:
-  print ("ULTRA X IS STARTING WITH TELETHON") 
-from ULTRAX import xbot
-from ULTRA import bot, CMD_HELP
+  print ("BLACK_MAMBA IS STARTING WITH TELETHON") 
+from BLACK_MAMBA import xbot
+from BLACK_MAMBA import bot, CMD_HELP
 from sys import argv
 os.system("pip install telethon==1.20")
 import sys
 import os
-from ULTRA import bot
+from BLACK_MAMBA import bot
 import glob
 from telethon import events
 from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
-from ULTRA.utils import command, remove_plugin, load_module
+from BLACK_MAMBA.utils import command, remove_plugin, load_module
 from var import Var
 from pathlib import Path
-from ULTRA import LOAD_PLUG
+from BLACK_MAMBA import LOAD_PLUG
 import sys
 import asyncio
 from telethon.tl.functions.channels import JoinChannelRequest as join
 import traceback
 import os
-import ULTRA.utils
+import BLACK_MAMBA.utils
 
 os.system("pip install google_trans_new")
 import glob
@@ -55,8 +56,8 @@ from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient, Button
 from var import Var
-from ULTRA.utils import load_module, load_pro
-from ULTRA import LOAD_PLUG, BOTLOG_CHATID
+from BLACK_MAMBA.utils import load_module, load_pro
+from BLACK_MAMBA import LOAD_PLUG, BOTLOG_CHATID
 from pathlib import Path
 import asyncio
 TOKEN = os.environ.get("TG_BOT_TOKEN", None)
@@ -71,7 +72,7 @@ async def add_bot(bot_token):
     bot.me = await bot.get_me() 
     bot.uid = telethon.utils.get_peer_id(bot.me)
 ONLINE_ALERT = os.environ.get("ONLINE_ALERT")
-os.system("pip install LEGENDX==0.0.21")
+os.system("pip install BLACK_MAMBA==0.0.21")
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
@@ -99,7 +100,7 @@ bot.set(heroku_username=Var.TG_BOT_USER_NAME_BF_HER)
 
 
 
-path = 'ULTRA/plugins/assistant/*.py'
+path = 'BLACK_MAMBA/plugins/assistant/*.py'
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
@@ -109,8 +110,8 @@ for name in files:
 
 
 if  EXTRA_PLUGS == True:
-    os.system("git clone https://github.com/ULTRA-OP/ULTRA_PLUGS.git ./ULTRA/plugins/")
-    path = "ULTRA/plugins/*.py"
+    os.system("git clone https://github.com/SUKHPAL443/BLACK_MAMBA.git ./BLACK_MAMBA/plugins/")
+    path = "BLACK_MAMBA/plugins/*.py"
     files = glob.glob(path)
     for name in files:
         with open(name) as a:
@@ -124,7 +125,7 @@ if  EXTRA_PLUGS == True:
                 pass
 
 else:
-  path = 'ULTRA/plugins/*.py'
+  path = 'BLACK_MAMBA/plugins/*.py'
   files = glob.glob(path)
   for name in files:
       with open(name) as f:
@@ -141,7 +142,7 @@ async def install():
     total_doxx = range(0, total)
     for ixo in total_doxx:
         mxo = documentss[ixo].id
-        downloaded_file_name = await bot.download_media(await bot.get_messages(chat, ids=mxo), "ULTRA/plugins/")
+        downloaded_file_name = await bot.download_media(await bot.get_messages(chat, ids=mxo), "BLACK_MAMBA/plugins/")
         if "(" not in downloaded_file_name:
             path1 = Path(downloaded_file_name)
             shortname = path1.stem
@@ -149,26 +150,26 @@ async def install():
             print(f'{i} plugin install')
         else:
             print ("Failed")
-import ULTRA._core
+import BLACK_MAMBA._core
 import os
-print("UltraX is Up and Awake! ©️ TeamUltraX 2021")
-async def legend():
+print("BLACK_MAMBA is Up and Awake! ©️ TEAMBLACK_MAMBA 2021")
+async def BLACK_MAMBA():
   pro = await xbot.get_me()
   bot.set(bot_username=(await xbot.get_me()).username)
-  legend = await bot.get_me()
-  LEGENDX = f"""
+  black_mamba = await bot.get_me()
+  BLACK_MAMBA = f"""
 **Sᴏᴍᴇᴛʜɪɴɢ Hᴀᴘᴘᴇɴᴇᴅ ! Lᴇᴛs Cʜᴇᴄᴋ** 🤔 
 
 `☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎`
 
-**Dɪɴɢ Dᴏɴɢ...** `.\./.\` **Tɪɴɢ Tᴏɴɢ...** `./.\./` **UʟᴛʀᴀX Hᴀs Bᴇᴇɴ Dᴇᴘʟᴏʏᴇᴅ !!**
+**Dɪɴɢ Dᴏɴɢ...** `.\./.\` **Tɪɴɢ Tᴏɴɢ...** `./.\./` **BLACK_MAMBA Hᴀs Bᴇᴇɴ Dᴇᴘʟᴏʏᴇᴅ !!**
 
 **Pɪɴɢ Pᴏɴɢ...**
 
-**➥ Mᴀsᴛᴇʀ** `➪` **@{legend.username}**
+**➥ Mᴀsᴛᴇʀ** `➪` **@{BLACK_MAMBA.username}**
 **➥ Assɪsᴛᴀɴᴛ** `➪` **@{pro.username}**
-**➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@UltraXchaT**
-**➥ Cʜᴀɴɴᴇʟ** `➪` **@UltraX_SupporT**
+**➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@BLACK_MAMBA_SUPPORT**
+**➥ Cʜᴀɴɴᴇʟ** `➪` **@BLACK_MAMBA_OP_SUPPORT_CHANNEM**
 
 **Cʜᴇᴄᴋ ᴍᴏɪ Pɪɴɢ ᴛɪᴍᴇ ʙʏ** `.ping` **[Fᴏʀ UsᴇʀBᴏᴛ] or** `/ping` **[Fᴏʀ Assɪsᴛᴀɴᴛ]**
 """
@@ -176,11 +177,12 @@ async def legend():
     try:
       PROBOYX = [[Button.inline("Hᴇʀᴏᴋᴜ Vᴀʀs", data='ass_back')]]
       
-      await xbot.send_message(bot.me.id, LEGENDX, buttons=PROBOYX)
+      await xbot.send_message(bot.me.id, BLACK_MAMBA, buttons=PROBOYX)
     except:
        pass
   else:
-      print("YOUR BOT DEPLOYED SUCCESSFULLY")
+      print("BHAI SUNN ???????????????????????????_______________________________???????????????????? TERA BOT DEPLOY HO CHUKA HAI{{{{{{{{{_{_{_{_{_{_{{{{{{{{{{{AB ENJOY KR 
+            OR HAA EK OR BAAT+++++++++______++++++++++________TU APNE DOSTOON KO BHI BTA DENA KI BLACK MAMBA KOHI DEPLOY KRE #TEAM_BLACK_MAMBA")
 
 async def danger(username):
   i = 0
