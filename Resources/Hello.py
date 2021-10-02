@@ -1,4 +1,2 @@
-Nikal madarchod
-Ise bhi kang krle lodu krle aagyaa he to 
-Krlena madarchod 😂
-
+KYA KREGA RE TU KANG KRKE 
+EK KAAM KAR KHUD KA BOT BANA
