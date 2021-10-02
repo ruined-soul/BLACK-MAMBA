@@ -8,13 +8,13 @@ import sys
 
 from telethon import Button, custom, events, functions, version
 
-from ULTRA import CMD_LIST
-from ULTRA import ALIVE_NAME
-from ULTRAX import PHOTO
-from ULTRA.utils import admin_cmd, sudo_cmd
+from BLACK_MAMBA import CMD_LIST
+from BLACK_MAMBA import ALIVE_NAME
+from BLACK_MAMBA import PHOTO
+from BLACK_MAMBA.utils import admin_cmd, sudo_cmd
 from platform import uname
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "υℓтяα χ"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "BLACK_MAMBA"
 
 
 #@command(pattern="^.help ?(.*)")
@@ -89,7 +89,7 @@ async def cmd_list(event):
 
         else:
 
-            help_string = f""" υℓтяα χ вσт Hᴇʟᴘ ᴘʀᴏᴠɪᴅᴇᴅ ʙʏ тєαм υℓтяα χ\n
+            help_string = f""" BLACK_MAMBA вσт Hᴇʟᴘ ᴘʀᴏᴠɪᴅᴇᴅ ʙʏ тєαм BLACK_MAMBA\n
 
 Dᴏ `.help` PLUGIN_NAME ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs, ɪғ ɪɴ ᴄᴀsᴇ Pᴏᴘ-Uᴘ ᴅᴏᴇsɴ'ᴛ ᴀᴘᴘᴇᴀʀ."""
 
@@ -145,7 +145,7 @@ async def _(event):
 
     logger.info(result)  # pylint:disable=E0602
 
-    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву υℓтяα χ вσт")
+    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву BLACK_MAMBA вσт")
 
 
 
@@ -167,7 +167,7 @@ async def _(event):
 
         help_string = CMD_LIST[plugin_name].doc
 
-        unload_string = f"Usᴇ `.unload` {plugin_name} ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜɪs Pʟᴜɢɪɴ.\n           Â© υℓтяα χ"
+        unload_string = f"Usᴇ `.unload` {plugin_name} ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜɪs Pʟᴜɢɪɴ.\n           Â© BLACK_MAMBA"
 
         
 
