@@ -1,5 +1,5 @@
 # IDEA/MADE BY TIMEX_OF_CLOCK
-#AND HALF CREDIT GOES TO RUINED-SOUL
+# AND HALF CREDIT GOES TO RUINED-SOUL
 
 import os, sys
 new_ver = os.environ.get("NEW_VERSION", False)
