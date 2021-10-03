@@ -8,7 +8,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/SUKHPAL443/BLACK-MAMBA)
 
 
-#(☝◞‸◟)☞ 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃
+(☝◞‸◟)☞ 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃
 This is a 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 made for telegram. I made this 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 with help of all other 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 available in telegram. All credits goes to its Respective Owners....
 
 This is the one and only official 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃 made by [ Team 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰](https://t.me/𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰_SUPPORT) 
