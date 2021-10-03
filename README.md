@@ -27,7 +27,7 @@ Also join [support channel and group](https://github.com/SUKHPAL443/BLACK-MAMBA#
 
 ## Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
 
-## [String Session](https://replit.com/@SUKHPAL443/BLACK-MAMBA#main.py)
+## [String Session](https://replit.com/@SUKHPAL443/BLACK-MAMBA#session.py)
 
 -------------------------------------------------
 
