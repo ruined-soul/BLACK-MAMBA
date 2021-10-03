@@ -11,7 +11,7 @@
 #(☝◞‸◟)☞ 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃
 This is a 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 made for telegram. I made this 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 with help of all other 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃 made by [ Team 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰](https://t.me/ 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃) 
+This is the one and only official 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰 𝙱𝙾𝚃 made by [ Team 𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰](https://t.me/𝙱𝙻𝙰𝙲𝙺-𝙼𝙰𝙼𝙱𝙰_SUPPORT) 
 
 Also join [support channel and group](https://github.com/SUKHPAL443/BLACK-MAMBA#o%D2%93%D2%93%C9%AA%E1%B4%84%C9%AA%E1%B4%80%CA%9F-s%E1%B4%9C%E1%B4%98%E1%B4%98%E1%B4%8F%CA%80%E1%B4%9B) Enjoy Your Bot!!💝
 
