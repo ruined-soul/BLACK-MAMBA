@@ -7,7 +7,7 @@ def start():
   if str(new_ver) == "True":
     os.system ("git clone -b new https://github.com/SUKHPAL443/BLACK_MAMBA.git && cd BLACK_MAMBA && python3 -m BLACK_MAMBA")
   else:
-    print ("You Are using Ultra X 1.0 please update your bot")
+    print ("You Are using BLACK_MAMBA 1.0 please update your bot")
     print ("for updating go to @BLACK_MAMBA_SUPPORT")
     pass
 
@@ -27,7 +27,7 @@ except:
   os.system("pip install BLACK_MAMBA==0.0.21")
   from BLACK_MAMBA import id, ID, devs
 finally:
-  print ("BLACK_MAMBA IS STARTING WITH TELETHON") 
+  print ("BLACK_MAMBA IS STARTING WITH telethon") 
 from BLACK_MAMBA import xbot
 from BLACK_MAMBA import bot, CMD_HELP
 from sys import argv
@@ -152,7 +152,7 @@ async def install():
             print ("Failed")
 import BLACK_MAMBA._core
 import os
-print("BLACK_MAMBA is Up and Awake! ©️ TEAMBLACK_MAMBA 2021")
+print("BLACK_MAMBA is Up and Awake! ©️ TEAM BLACK_MAMBA 2021")
 async def BLACK_MAMBA():
   pro = await xbot.get_me()
   bot.set(bot_username=(await xbot.get_me()).username)
@@ -169,7 +169,7 @@ async def BLACK_MAMBA():
 **➥ Mᴀsᴛᴇʀ** `➪` **@{BLACK_MAMBA.username}**
 **➥ Assɪsᴛᴀɴᴛ** `➪` **@{pro.username}**
 **➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@BLACK_MAMBA_SUPPORT**
-**➥ Cʜᴀɴɴᴇʟ** `➪` **@BLACK_MAMBA_OP_SUPPORT_CHANNEM**
+**➥ Cʜᴀɴɴᴇʟ** `➪` **@BLACK_MAMBA_OP_SUPPORT_CHANNEL**
 
 **Cʜᴇᴄᴋ ᴍᴏɪ Pɪɴɢ ᴛɪᴍᴇ ʙʏ** `.ping` **[Fᴏʀ UsᴇʀBᴏᴛ] or** `/ping` **[Fᴏʀ Assɪsᴛᴀɴᴛ]**
 """
@@ -196,7 +196,7 @@ async def danger(username):
        xx += 1
   print(f"THE DANGER USER WAS BANNED IN {i-xx}")
 bot.loop.run_until_complete(danger("Dear_comradee")) # Temporary
-bot.loop.run_until_complete(legend())
+bot.loop.run_until_complete(BLACK_MAMBA())
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
     
