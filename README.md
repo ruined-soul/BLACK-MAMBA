@@ -23,7 +23,7 @@ Also join [support channel and group](https://github.com/SUKHPAL443/BLACK-MAMBA#
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SUKHPAL443/BLACK-MAMBA)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fflask)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/SUKHPAL443/BLACK-MAMBA)
 ------------------------------------------------
 
 ## Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
